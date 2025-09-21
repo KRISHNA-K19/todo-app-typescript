@@ -1,0 +1,24 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "A TypeScript-based To-Do List app with localStorage persistence",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "npm run build && node dist/app.js",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "todo",
+    "typescript",
+    "productivity",
+    "localstorage"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "rimraf": "^5.0.10"
+  }
+}
